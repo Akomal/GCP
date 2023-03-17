@@ -1,6 +1,6 @@
 import os
 from google.cloud import storage
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']='jason file_path'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS']='json file_path'
 storage_client= storage.Client()
 
 #create new bucket
